@@ -1,0 +1,132 @@
+[
+  {
+    "name": "The Call of the Wild",
+    "category": "adventure",
+    "price": "12.55"
+  },
+  {
+    "name": "The Three Musketeers",
+    "category": "adventure",
+    "price": "8.55"
+  },
+  {
+    "name": "The walking Dead",
+    "category": "novel",
+    "price": "10.55"
+  },
+  {
+    "name": "Life of Pi",
+    "category": "adventure",
+    "price": "11.55"
+  },
+  {
+    "name": "Watchmen",
+    "category": "novel",
+    "price": "9.50"
+  },
+  {
+    "name": "The Help",
+    "category": "fiction",
+    "price": "12.25"
+  },
+  {
+    "name": "Memoirs of Geisha",
+    "category": "fiction",
+    "price": "11.65"
+  },
+  {
+    "name": "Olive, again",
+    "category": "fiction",
+    "price": "12.25"
+  },
+  {
+    "name": "1984",
+    "category": "fiction",
+    "price": "8.45"
+  },
+  {
+    "name": "Jane Eyre",
+    "category": "novel",
+    "price": "7.65"
+  },
+  {
+    "name": "Moby Dick",
+    "category": "adventure",
+    "price": "11.35"
+  },
+  {
+    "name": "The Testments",
+    "category": "fiction",
+    "price": "9.50"
+  },
+  {
+    "name": "Catch-22",
+    "category": "novel",
+    "price": "9.75"
+  },
+  {
+    "name": "Into Thin Air",
+    "category": "adventure",
+    "price": "9.45"
+  },
+  {
+    "name": "Beloved",
+    "category": "novel",
+    "price": "7.65"
+  },
+  {
+    "name": "Anna Karenina",
+    "category": "novel",
+    "price": "8.65"
+  },
+  {
+    "name": "Treasure Island",
+    "category": "adventure",
+    "price": "6.45"
+  },
+  {
+    "name": "Hatchet",
+    "category": "adventure",
+    "price": "8.55"
+  },
+  {
+    "name": "Robinson Crusoe",
+    "category": "adventure",
+    "price": "7.35"
+  },
+  {
+    "name": "Into The Wild",
+    "category": "adventure",
+    "price": "8.65"
+  },
+  {
+    "name": "Born a Crime",
+    "category": "other",
+    "price": "7.65"
+  },
+  {
+    "name": "Becoming",
+    "category": "other",
+    "price": "8.65"
+  },
+  {
+    "name": "The Glass Castle",
+    "category": "other",
+    "price": "6.45"
+  },
+  {
+    "name": "The Jemima Code",
+    "category": "other",
+    "price": "8.55"
+  },
+  {
+    "name": "Frida",
+    "category": "other",
+    "price": "7.35"
+  },
+  {
+    "name": "Red at the Bone",
+    "category": "adventure",
+    "price": "8.65"
+  }
+]
