@@ -19,8 +19,8 @@ router.post("/", async (req, res) => {
     name: req.body.name,
     price: req.body.price,
     category: {
-      _id: genre._id,
-      name: genre.name,
+      _id: category._id,
+      name: category.name,
     },
   });
 
@@ -54,17 +54,17 @@ router.put("/:id", async (req, res) => {
 });
 
 router.delete("/:id", async (req, res) => {
-  const book = await Book.findOneAndUpdate(req.params.id);
+  const book = await Book.findByIdAndRemove(req.params.id);
   if (!book)
     return res.status(404).send("The book with the given ID was not found");
   res.send(book);
 });
 
-router.get("/:id", async (req, res) => {
-  const book = await Book.findById(req.params.id);
-  if (!book)
-    return res.status(404).send("The book with the given ID was not found");
-  res.send(book);
+router.get("/:categoryId", async (req, res) => {
+  const category = await Category.findById(req.params.categoryId);
+  if (!category)
+    return res.status(404).send("The category with the given ID was not found");
+  res.send(category);
 });
 
 module.exports = router;

@@ -1,7 +1,7 @@
 const Joi = require("joi");
 Joi.objectId = require("joi-objectid")(Joi);
 const mongoose = require("mongoose");
-const { genreSchema } = require("./category");
+const { categoryShema } = require("./category");
 
 const Book = mongoose.model(
   "Books",
@@ -18,7 +18,7 @@ const Book = mongoose.model(
       min: 0,
     },
     category: {
-      type: genreSchema,
+      type: categoryShema,
       required: true,
     },
   })
@@ -28,7 +28,7 @@ function validateBook(book) {
   const schema = Joi.object({
     name: Joi.string().min(1).max(50).required(),
     price: Joi.number().min(0).required(),
-    category: Joi.objectId().required(),
+    categoryId: Joi.objectId().required(),
   });
   return schema.validate(book);
 }
