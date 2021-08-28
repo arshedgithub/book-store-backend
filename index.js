@@ -5,6 +5,7 @@ const books = require("./routes/books");
 const categories = require("./routes/categories");
 const error = require("./middleware/error");
 const users = require("./routes/users");
+const auth = require("./routes/auth");
 
 mongoose
   .connect("mongodb://localhost/book-store", {
@@ -18,6 +19,7 @@ app.use(express.json());
 app.use("/api/books", books);
 app.use("/api/categories", categories);
 app.use("/api/users", users);
+app.use("/api/auth", auth);
 
 app.use(error);
 
